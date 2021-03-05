@@ -104,13 +104,13 @@ function checkIfVertical4OpEenRij(column){
 			countRed++;
 			countYellow=0;
 			if(countRed>=4){
-				alert("Red won!");
+				alert("Thomas wint!");
 			}
 		}else if(isYellow(i,column)){
 			countYellow++;
 			countRed=0;
 			if(countYellow>=4){
-				alert("Yellow won!");
+				alert("Thomas wint!");
 			}
 		}else{
 			countRed=0;
@@ -131,13 +131,13 @@ function checkIfHorizontal4OpEenRij(column){
 			countRed++;
 			countYellow=0;
 			if(countRed>=4){
-				alert("Red won!");
+				alert("Thomas wint!");
 			}	
 		}else if(isYellow(row,i)){
 			countYellow++;
 			countRed=0;
 			if(countYellow>=4){
-				alert("Yellow won!");
+				alert("Thomas wint!");
 			}	
 		}else{
 			countRed=0;
@@ -158,13 +158,13 @@ function checkIfAscendingDiagonal4OpEenRij(column){
 			countRed++;
 			countYellow=0;
 			if(countRed>=4){
-				alert("Red won!");
+				alert("Thomas wint!!");
 			}
 		}else if(row+i>=0 && column+i>=0 && row+i<5 && column+i<7 && isYellow(row+i,column+i)){
 			countYellow++;
 			countRed=0;
 			if(countYellow>=4){
-				alert("Yellow won!");
+				alert("Thomas wint!!");
 			}
 		}else{
 			countRed=0;
@@ -186,13 +186,13 @@ function checkIfDescendingDiagonal4OpEenRij(column){
 			countRed++;
 			countYellow=0;
 			if(countRed>=4){
-				alert("Red won!");
+				alert("Thomas wint!");
 			}
 		}else if(row-i>=0 && column+i>=0 && row-i<5 && column+i<7 && isYellow(row-i,column+i)){
 			countYellow++;
 			countRed=0;
 			if(countYellow>=4){
-				alert("Yellow won!");
+				alert("Thomas wint!");
 			}
 		}else{
 			countRed=0;
